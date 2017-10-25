@@ -1,7 +1,28 @@
 {
   "name": "side-cap",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "dist/main.js",
   "author": "joe-re <joe.tialtngo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "electron": "^1.7.9",
+    "flow-bin": "^0.57.3",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
 }
